@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- подключение отдельных частей HTML -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- вставка параметра в title -->
+  <title>"Страница продукта"</title> 
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__top header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <a href="#" class="header-top__logo logo">
+          <img src="img/logo.png" alt="" class="logo__img">
+        </a>
+        <div class="header-top__region region">
+          <span class="region__title">
+            Ваш регион: 
+            <span class="region__name">
+              Москва
+            </span>
+          </span>
+          <span class="region__descr">
+            Работаем во всех городах России!
+          </span>
+        </div>
+        <div class="header-top__address address">
+          <span class="address__title">
+            Центральный магазин:
+          </span>
+          <span class="address__descr">
+            г. Москва, Походный проезд, дом 4/1, БЦ "Тушино" 1-й этаж
+          </span>
+        </div>
+        <div class="header-top__call call-link">
+          <div class="call-link__icon">
+            <img class="call-link__icon-img" src="img/icons/phone.png" alt="">
+          </div>
+          <div class="call-link__phone">
+            <span class="call-link__phone-number">
+              8 (800) 350-05-73
+            </span>
+            <button class="call-link__phone-descr pop-up-button" data-modal="call">
+              Обратный звонок
+            </button>
+          </div>
+        </div>
+        <div class="header-top__menu-btn menu-btn">
+          <div class="menu-btn__line"></div>
+          <div class="menu-btn__line"></div>
+          <div class="menu-btn__line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="header__menu menu">
+    <div class="container">
+      <div class="menu__inner">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ГЛАВНАЯ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              РОЗНИЧНЫЙ МАГАЗИН
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ДИЛЕРАМ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              О КОМПАНИИ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ДОСТАВКА
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ГАРАНТИЯ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ОПЛАТА
+            </a>
+          </li>
+          <li class="menu__item">
+            <div class="reviews__line">
+              <div class="mini-line"></div>
+            </div>
+          </li>
+          <li class="menu__item mobile-phone">
+            <div href="tel:88003500573" class="menu__link">
+              <button class="mobile-phone__descr pop-up-button" data-modal="call">Обратный звонок</button>
+              <span class="mobile-phone__number">8 (800) 350-05-73</span>
+            </div>
+          </li>
+          <li class="menu__item mobile-address">
+            <span class="mobile-address__descr">Центральный магазин:</span>
+            <span class="mobile-address__text">г. Москва, Походный проезд, <br> дом 4/1, БЦ "Тушино" 1-й этаж</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <main class="main">
+    <div class="page-container">
+      <div class="main__block">
+        <div class="main__block-inner">
+          <section class="main__product product">
+            <div class="container">
+              <div class="product__inner">
+                <div class="product__column">
+
+                  <div class="product__sliders">
+                    <div class="product__slider swiper-container">
+                      <div class="product__slider-inner swiper-wrapper">
+                        <div class="product__slider-slide swiper-slide">
+                          <div class="product__slider-img-wrapper"
+                            style="background-image: url(img/product-page/product-slider-img-4.jpg)">
+                            <img src="img/product-page/product-slider-img-4.jpg" alt="" class="product__slider-img">
+                          </div>
+                        </div>
+                        <div class="product__slider-slide swiper-slide">
+                          <div class="product__slider-img-wrapper"
+                            style="background-image: url(img/product-page/product-slider-img-4.jpg)">
+                            <img src="img/product-page/product-slider-img-4.jpg" alt="" class="product__slider-img">
+                          </div>
+                        </div>
+                        <div class="product__slider-slide swiper-slide">
+                          <div class="product__slider-img-wrapper"
+                            style="background-image: url(img/product-page/product-slider-img-4.jpg)">
+                            <img src="img/product-page/product-slider-img-4.jpg" alt="" class="product__slider-img">
+                          </div>
+                        </div>
+                        <div class="product__slider-slide swiper-slide">
+                          <div class="product__slider-img-wrapper"
+                            style="background-image: url(img/product-page/product-slider-img-4.jpg)">
+                            <img src="img/product-page/product-slider-img-4.jpg" alt="" class="product__slider-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product__mini-slider swiper-container">
+                      <div class="product__mini-slider-inner swiper-wrapper">
+                        <div class="product__mini-slider-slide swiper-slide">
+                          <div class="product__mini-slider-img-wrapper">
+                            <img src="img/product-page/product-mini-slider-img-4.jpg" alt=""
+                              class="product__mini-slider-img">
+                          </div>
+                        </div>
+                        <div class="product__mini-slider-slide swiper-slide">
+                          <div class="product__mini-slider-img-wrapper">
+                            <img src="img/product-page/product-mini-slider-img-4.jpg" alt=""
+                              class="product__mini-slider-img">
+                          </div>
+                        </div>
+                        <div class="product__mini-slider-slide swiper-slide">
+                          <div class="product__mini-slider-img-wrapper">
+                            <img src="img/product-page/product-mini-slider-img-4.jpg" alt=""
+                              class="product__mini-slider-img">
+                          </div>
+                        </div>
+                        <div class="product__mini-slider-slide swiper-slide">
+                          <div class="product__mini-slider-img-wrapper">
+                            <img src="img/product-page/product-mini-slider-img-4.jpg" alt=""
+                              class="product__mini-slider-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__descr">
+                    <h4 class="product__descr-title">
+                      Описание
+                    </h4>
+                    <p class="product__descr-text text">
+                      Комплекс Playgarden SkyFort Deluxe II PG-PKG-SF07 с горкой и горкой трубой и с манки-баром -
+                      дополнен манки-баром - рукоходом. Игровая площадка имеет одну из самых полных комплектаций:
+                      наличие двух горок, разнообразных качелей, манки-бара-рукохода, песочницы, столика для пикника и
+                      т.д. - воплощение мечты для игр детей на свежем воздухе. Это одна из лучших и популярных моделей
+                      серии Playgarden SkyFort.
+                    </p>
+                    <p class="product__descr-text text">
+                      Основа комплекса — уютный игровой домик из двух ярусов и песочница. К нему надежно крепятся качели
+                      нескольких видов, две лестницы, одна из которых веревочная, скалодром и рукоход.
+                    </p>
+                    <p class="product__descr-text text">
+                      Важное преимущество Sky Fort Deluxe — наличие двух горок, длина которых около трех метров. Одна из
+                      них — традиционная, двухволновая; вторая — труба из яркого пластика, образующая головокружительный
+                      поворот. Последняя более всего нравится малышам.
+                    </p>
+                  </div>
+                </div>
+                <div class="product__column">
+                  <div class="product__breadcrumbs breadcrumbs">
+                    <span class="breadcrumbs__item">
+                      <a href="#" class="breadcrumbs__link">
+                        Детские площадки
+                      </a>
+                    </span>
+                    /
+                    <span class="breadcrumbs__item">
+                      <a href="#" class="breadcrumbs__link">
+                        Playgarden
+                      </a>
+                    </span>
+                    /
+                    <span class="breadcrumbs__item">
+                      Playgarden Original Castle Turbo
+                    </span>
+                  </div>
+                  <h1 class="product__title">
+                    Детская площадка Playgarden Original Castle Turbo
+                  </h1>
+                  <div class="product__price price">
+                    <span class="prise__last">46 000 р.</span>
+                    <span class="prise__actual">41 000 р</span>
+                  </div>
+                  <div class="product__btn-block btn-block">
+                    <button class="btn-block__btn btn btn--orange">
+                      <img src="img/icons/shopping-cart.svg" alt="" class="btn-block__btn-img">
+                      <span class="btn-block__btn-text">
+                        Купить
+                      </span>
+                    </button>
+                    <button class="btn-block__btn btn btn--green pop-up-button" data-modal="question">
+                      <span class="btn-block__btn-text">
+                        Задать Вопрос
+                      </span>
+                    </button>
+                  </div>
+                  <div class="product__pay pay">
+                    <h3 class="pay__title">
+                      Доставка и оплата
+                    </h3>
+                    <div class="pay__region">
+                      <div class="pay__region-column">
+                        <h5 class="pay__region-name">
+                          г. Москва и МО:
+                        </h5>
+                        <ul class="pay__region-list">
+                          <li class="pay__region-item">
+                            В пределах МКАД - 0 р.
+                          </li>
+                          <li class="pay__region-item">
+                            За пределы МКАД - 0 р. + 25 р./км
+                          </li>
+                          <li class="pay__region-item">
+                            Занос - 0 р.
+                          </li>
+                          <li class="pay__region-item">
+                            Установка и подключение - 0 р.
+                          </li>
+                          <li class="pay__region-item">
+                            Оплата при получении
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="pay__region-column">
+                        <h5 class="pay__region-name">
+                          Россия:
+                        </h5>
+                        <ul class="pay__region-list">
+                          <li class="pay__region-item">
+                            Доставка по всей России
+                          </li>
+                          <li class="pay__region-item">
+                            Оплата при получении
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product__banner">
+                    <img src="img/banners/product-page-banner.jpg" alt="" class="product__banner-img">
+                  </div>
+                  <div class="product__characteristics product-character">
+                    <h4 class="product-character__title">
+                      Характеристики
+                    </h4>
+                    <ul class="product-character__list">
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Производитель:
+                        </span>
+                        <span class="product-character__descr">
+                          Playgarden
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Страна:
+                        </span>
+                        <span class="product-character__descr">
+                          Россия
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Дерево:
+                        </span>
+                        <span class="product-character__descr">
+                          Ель (сосна)
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Высота нижней платформы:
+                        </span>
+                        <span class="product-character__descr">
+                          1,4 м
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Высота верхней платформы:
+                        </span>
+                        <span class="product-character__descr">
+                          1,5 м
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Размер нижней платформы:
+                        </span>
+                        <span class="product-character__descr">
+                          1.0 x 1.3 м
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Размер верхней платформы:
+                        </span>
+                        <span class="product-character__descr">
+                          1.0 x 1.3 м
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Количество горок:
+                        </span>
+                        <span class="product-character__descr">
+                          2 шт
+                        </span>
+                      </li>
+                      <li class="product-character__item">
+                        <span class="product-character__name">
+                          Габариты (ДxШxВ):
+                        </span>
+                        <span class="product-character__descr">
+                          7.1 x 6.7 x 3.5 м
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <div class="page-line">
+            <div class="container">
+              <div class="page-line__inner"></div>
+            </div>
+          </div>
+          <section class="catalog">
+            <div class="container">
+              <div class="catalog__inner">
+                <h2 class="catalog__title">
+                  ВЫБЕРИТЕ РАЗДЕЛ КАТАЛОГА ДЛЯ ПРОСМОТРА
+                </h2>
+                <div class="catalog__grid">
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Для детей <br> от 1 до 6 лет
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Для детей <br> от 3 до 12 лет
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      детские<br>площадки<br> для дачи
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Самые популярные<br>детские площадки
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Недорогие детские<br>
+                      площадки
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Детские площадки «Премиум»
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item catalog__grid-item--bottom">
+                    <div class="catalog__grid-sale">
+                      <div class="catalog__sale-title">Распродажа</div>
+                      <div class="catalog__sale-descr">Детских площадок</div>
+                    </div>
+                    <div class="catalog__sale-bg">
+                      <span class="catalog__sale-text">распро<br>дажа</span>
+                    </div>
+                    <img src="img/catalog-bg-7.png" alt="" class="catalog__sale-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer__inner">
+      <div class="footer__column-logo">
+        <img src="img/footer-logo.png" alt="" class="footer__logo">
+        <p class="footer__text">
+          © 2015-2017 г. ООО «Дом Каминов» - продажа электрокаминов.
+          Уют в Вашем доме.
+        </p>
+      </div>
+      <div class="footer__column-address">
+        <h5 class="footer__title">
+          Контакты
+        </h5>
+        <span class="footer__phone">
+          8 (800) 350-05-73
+        </span>
+        <p class="footer__text">
+          Бесплатный звонок по России
+        </p>
+        <span class="footer__address">
+          Адрес
+        </span>
+        <p class="footer__address-info">
+          125371 г. Москва, <br> Походный проезд 4с1 <br> офис 213. БЦ «Тушино»
+        </p>
+      </div>
+      <div class="footer__column-catalog">
+        <h5 class="footer__title">
+          Каталог
+        </h5>
+        <ul class="footer__catalog-list">
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Главная
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Розничный магазин
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Дилерам
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              О компании
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Доставка
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Гарантия
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Оплата
+            </a></li>
+        </ul>
+      </div>
+      <div class="footer__column-agent">
+        <h5 class="footer__agent-title">
+          Официальный представитель компаний в России:
+        </h5>
+        <div class="footer__agent-row">
+          <div class="footer__agent-block"><img src="img/footer-agent-1.jpg" alt="" class="footer__agent-img"></div>
+          <div class="footer__agent-block"><img src="img/footer-agent-2.jpg" alt="" class="footer__agent-img"></div>
+          <div class="footer__agent-block"><img src="img/footer-agent-3.jpg" alt="" class="footer__agent-img"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <div class="popup pop-up-window" data-modal="question">
+    <div class="popup__inner">
+      <div class="popup__block popup-question">
+        <div class="popup-question-inner">
+          <h3 class="popup-question__title">
+            ОСТАВЬТЕ ВАШ <br>
+            НОМЕР ТЕЛЕФОНА
+          </h3>
+          <span class="popup-question__descr">
+            и мы ответим на все Ваши вопросы
+          </span>
+          <form class="popup-question__form">
+            <input type="text" class="popup-question__input" placeholder="Ваше имя">
+            <input type="text" class="popup-question__input phone-mask" placeholder="+7(">
+            <textarea class="popup-question__text" placeholder="Вопрос или комментарий"></textarea>
+            <button class="popup-question__btn btn--orange">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="popup pop-up-window" data-modal="call">
+    <div class="popup__inner">
+      <div class="popup__block popup-call">
+        <div class="popup-call__block">
+          <h3 class="popup-call__title">
+            Оставьте свой номер
+          </h3>
+          <form class="popup-call__form call-form">
+            <div class="call-form__btns">
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/whatsapp.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/viber.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/telegram.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+            </div>
+            <span class="call-form__text">
+              Для получения персонального подбора детской площадки и весенней распродажи на Viber WhatsApp, Telegram. Выберите один или несколько мессенджеров, кликнув по соответствующим иконкам
+            </span>
+            <input type="text" class="call-form__input phone-mask" placeholder="+7 (">
+            <button class="popup-call__btn btn--orange">Получить каталог</button>
+          </form>
+          <img src="img/popup-call-img.jpg" alt="" class="popup__call-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

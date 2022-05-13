@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- подключение отдельных частей HTML -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- вставка параметра в title -->
+  <title>"Доставка"</title> 
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__top header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <a href="#" class="header-top__logo logo">
+          <img src="img/logo.png" alt="" class="logo__img">
+        </a>
+        <div class="header-top__region region">
+          <span class="region__title">
+            Ваш регион: 
+            <span class="region__name">
+              Москва
+            </span>
+          </span>
+          <span class="region__descr">
+            Работаем во всех городах России!
+          </span>
+        </div>
+        <div class="header-top__address address">
+          <span class="address__title">
+            Центральный магазин:
+          </span>
+          <span class="address__descr">
+            г. Москва, Походный проезд, дом 4/1, БЦ "Тушино" 1-й этаж
+          </span>
+        </div>
+        <div class="header-top__call call-link">
+          <div class="call-link__icon">
+            <img class="call-link__icon-img" src="img/icons/phone.png" alt="">
+          </div>
+          <div class="call-link__phone">
+            <span class="call-link__phone-number">
+              8 (800) 350-05-73
+            </span>
+            <button class="call-link__phone-descr pop-up-button" data-modal="call">
+              Обратный звонок
+            </button>
+          </div>
+        </div>
+        <div class="header-top__menu-btn menu-btn">
+          <div class="menu-btn__line"></div>
+          <div class="menu-btn__line"></div>
+          <div class="menu-btn__line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="header__menu menu">
+    <div class="container">
+      <div class="menu__inner">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ГЛАВНАЯ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              РОЗНИЧНЫЙ МАГАЗИН
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ДИЛЕРАМ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              О КОМПАНИИ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ДОСТАВКА
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ГАРАНТИЯ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ОПЛАТА
+            </a>
+          </li>
+          <li class="menu__item">
+            <div class="reviews__line">
+              <div class="mini-line"></div>
+            </div>
+          </li>
+          <li class="menu__item mobile-phone">
+            <div href="tel:88003500573" class="menu__link">
+              <button class="mobile-phone__descr pop-up-button" data-modal="call">Обратный звонок</button>
+              <span class="mobile-phone__number">8 (800) 350-05-73</span>
+            </div>
+          </li>
+          <li class="menu__item mobile-address">
+            <span class="mobile-address__descr">Центральный магазин:</span>
+            <span class="mobile-address__text">г. Москва, Походный проезд, <br> дом 4/1, БЦ "Тушино" 1-й этаж</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+  <main class="main">
+    <div class="page-container">
+      <div class="main__block">
+        <div class="main__block-inner">
+
+
+          <section class="page-block">
+            <div class="large-container">
+              <img src="img/banners/warranty-banner.jpg" alt="" class="page-block__banner">
+              <div class="container">
+                <div class="warranty-page">
+                  <h1 class="warranty-page__title page-block__title">
+                    гарантия
+                  </h1>
+                  <p class="warranty-page__text page-block__text">
+                    Предоставляя свои персональные данные Покупатель даёт согласие на обработку, хранение и
+                    использование своих персональных данных на основании ФЗ № 152-ФЗ «О персональных данных» от
+                    27.07.2006 г. в следующих целях:
+                  </p>
+                  <ul class="warranty-page__list page-block__list">
+                    <li class="warranty-page__item page-block__item">
+                      Регистрации Пользователя на сайте
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Осуществление клиентской поддержки
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Получения Пользователем информации о маркетинговых событиях
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Выполнение Продавцом обязательств перед Покупателем
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Проведения аудита и прочих внутренних исследований с целью повышения качества предоставляемых
+                      услуг
+                    </li>
+                  </ul>
+                  <p class="warranty-page__text page-block__text">
+                    Под персональными данными подразумевается любая информация личного характера, позволяющая установить
+                    личность Покупателя такая как:
+                  </p>
+                  <ul class="warranty-page__list page-block__list">
+                    <li class="warranty-page__item page-block__item">
+                      Фамилия, Имя, Отчество
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Дата рождения
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Контактный телефон
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Адрес электронной почты
+                    </li>
+                    <li class="warranty-page__item page-block__item">
+                      Почтовый адрес
+                    </li>
+                  </ul>
+                  <p class="warranty-page__text page-block__text">
+                    Персональные данные Покупателей хранятся исключительно на электронных носителях и обрабатываются с
+                    использованием автоматизированных систем, за исключением случаев, когда неавтоматизированная
+                    обработка персональных данных необходима в связи с исполнением требований законодательства
+                  </p>
+                  <p class="warranty-page__text page-block__text">
+                    Продавец обязуется не передавать полученные персональные данные третьим лицам, за исключением
+                    следующих случаев:
+                  </p>
+                  <p class="warranty-page__text page-block__text">
+                    По запросам уполномоченных органов государственной власти РФ только по основаниям и в порядке,
+                    установленным законодательством РФ
+                  </p>
+                  <p class="warranty-page__text page-block__text">
+                    Продавец оставляет за собой право вносить изменения в одностороннем порядке в настоящие правила, при
+                    условии, что изменения не противоречат действующему законодательству РФ. Изменения условий настоящих
+                    правил вступают в силу после их публикации на Сайте.
+                  </p>
+                </div>
+              </div>
+          </section>
+
+
+          <div class="page-line page-block-line">
+            <div class="container">
+              <div class="page-line__inner"></div>
+            </div>
+          </div>
+          <section class="catalog">
+            <div class="container">
+              <div class="catalog__inner">
+                <h2 class="catalog__title">
+                  ВЫБЕРИТЕ РАЗДЕЛ КАТАЛОГА ДЛЯ ПРОСМОТРА
+                </h2>
+                <div class="catalog__grid">
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Для детей <br> от 1 до 6 лет
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Для детей <br> от 3 до 12 лет
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      детские<br>площадки<br> для дачи
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Самые популярные<br>детские площадки
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Недорогие детские<br>
+                      площадки
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Детские площадки «Премиум»
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item catalog__grid-item--bottom">
+                    <div class="catalog__grid-sale">
+                      <div class="catalog__sale-title">Распродажа</div>
+                      <div class="catalog__sale-descr">Детских площадок</div>
+                    </div>
+                    <div class="catalog__sale-bg">
+                      <span class="catalog__sale-text">распро<br>дажа</span>
+                    </div>
+                    <img src="img/catalog-bg-7.png" alt="" class="catalog__sale-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer__inner">
+      <div class="footer__column-logo">
+        <img src="img/footer-logo.png" alt="" class="footer__logo">
+        <p class="footer__text">
+          © 2015-2017 г. ООО «Дом Каминов» - продажа электрокаминов.
+          Уют в Вашем доме.
+        </p>
+      </div>
+      <div class="footer__column-address">
+        <h5 class="footer__title">
+          Контакты
+        </h5>
+        <span class="footer__phone">
+          8 (800) 350-05-73
+        </span>
+        <p class="footer__text">
+          Бесплатный звонок по России
+        </p>
+        <span class="footer__address">
+          Адрес
+        </span>
+        <p class="footer__address-info">
+          125371 г. Москва, <br> Походный проезд 4с1 <br> офис 213. БЦ «Тушино»
+        </p>
+      </div>
+      <div class="footer__column-catalog">
+        <h5 class="footer__title">
+          Каталог
+        </h5>
+        <ul class="footer__catalog-list">
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Главная
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Розничный магазин
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Дилерам
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              О компании
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Доставка
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Гарантия
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Оплата
+            </a></li>
+        </ul>
+      </div>
+      <div class="footer__column-agent">
+        <h5 class="footer__agent-title">
+          Официальный представитель компаний в России:
+        </h5>
+        <div class="footer__agent-row">
+          <div class="footer__agent-block"><img src="img/footer-agent-1.jpg" alt="" class="footer__agent-img"></div>
+          <div class="footer__agent-block"><img src="img/footer-agent-2.jpg" alt="" class="footer__agent-img"></div>
+          <div class="footer__agent-block"><img src="img/footer-agent-3.jpg" alt="" class="footer__agent-img"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <div class="popup pop-up-window" data-modal="call">
+    <div class="popup__inner">
+      <div class="popup__block popup-call">
+        <div class="popup-call__block">
+          <h3 class="popup-call__title">
+            Оставьте свой номер
+          </h3>
+          <form class="popup-call__form call-form">
+            <div class="call-form__btns">
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/whatsapp.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/viber.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/telegram.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+            </div>
+            <span class="call-form__text">
+              Для получения персонального подбора детской площадки и весенней распродажи на Viber WhatsApp, Telegram.
+              Выберите один или несколько мессенджеров, кликнув по соответствующим иконкам
+            </span>
+            <input type="text" class="call-form__input phone-mask" placeholder="+7 (">
+            <button class="popup-call__btn btn--orange">Получить каталог</button>
+          </form>
+          <img src="img/popup-call-img.jpg" alt="" class="popup__call-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

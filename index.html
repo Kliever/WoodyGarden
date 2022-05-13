@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- подключение отдельных частей HTML -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- вставка параметра в title -->
+  <title>"Главная страница"</title> 
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__top header-top">
+    <div class="container">
+      <div class="header-top__inner">
+        <a href="#" class="header-top__logo logo">
+          <img src="img/logo.png" alt="" class="logo__img">
+        </a>
+        <div class="header-top__region region">
+          <span class="region__title">
+            Ваш регион: 
+            <span class="region__name">
+              Москва
+            </span>
+          </span>
+          <span class="region__descr">
+            Работаем во всех городах России!
+          </span>
+        </div>
+        <div class="header-top__address address">
+          <span class="address__title">
+            Центральный магазин:
+          </span>
+          <span class="address__descr">
+            г. Москва, Походный проезд, дом 4/1, БЦ "Тушино" 1-й этаж
+          </span>
+        </div>
+        <div class="header-top__call call-link">
+          <div class="call-link__icon">
+            <img class="call-link__icon-img" src="img/icons/phone.png" alt="">
+          </div>
+          <div class="call-link__phone">
+            <span class="call-link__phone-number">
+              8 (800) 350-05-73
+            </span>
+            <button class="call-link__phone-descr pop-up-button" data-modal="call">
+              Обратный звонок
+            </button>
+          </div>
+        </div>
+        <div class="header-top__menu-btn menu-btn">
+          <div class="menu-btn__line"></div>
+          <div class="menu-btn__line"></div>
+          <div class="menu-btn__line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="header__menu menu">
+    <div class="container">
+      <div class="menu__inner">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ГЛАВНАЯ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              РОЗНИЧНЫЙ МАГАЗИН
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ДИЛЕРАМ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              О КОМПАНИИ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ДОСТАВКА
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ГАРАНТИЯ
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">
+              ОПЛАТА
+            </a>
+          </li>
+          <li class="menu__item">
+            <div class="reviews__line">
+              <div class="mini-line"></div>
+            </div>
+          </li>
+          <li class="menu__item mobile-phone">
+            <div href="tel:88003500573" class="menu__link">
+              <button class="mobile-phone__descr pop-up-button" data-modal="call">Обратный звонок</button>
+              <span class="mobile-phone__number">8 (800) 350-05-73</span>
+            </div>
+          </li>
+          <li class="menu__item mobile-address">
+            <span class="mobile-address__descr">Центральный магазин:</span>
+            <span class="mobile-address__text">г. Москва, Походный проезд, <br> дом 4/1, БЦ "Тушино" 1-й этаж</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  <div class="banner">
+    <div class="container">
+      <div class="banner-inner">
+        <div class="banner__block banner-block swiper-container">
+          <div class="banner-block__wrapper swiper-wrapper">
+            <div class="banner-block__slide swiper-slide">
+              <div class="banner-block__slide-img">
+                <img src="img/topBanner/top-banner-1.jpg" alt="" class="banner-block__img">
+              </div>
+            </div>
+            <div class="banner-block__slide swiper-slide">
+              <div class="banner-block__slide-img">
+                <img src="img/topBanner/top-banner-2.jpg" alt="" class="banner-block__img">
+              </div>
+            </div>
+            <div class="banner-block__slide swiper-slide">
+              <div class="banner-block__slide-img">
+                <img src="img/topBanner/top-banner-3.jpg" alt="" class="banner-block__img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner__bg">
+          <img src="img/banner__bg-img.png" alt="" class="banner__bg-img">
+        </div>
+        <div class="banner__label">
+          Ваши дети будут довольны
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="main main-index">
+    <div class="large-container">
+      <div class="main__block">
+        <div class="main__block-inner">
+
+          <section class="catalog">
+            <div class="container">
+              <div class="catalog__inner">
+                <h2 class="catalog__title">
+                  ВЫБЕРИТЕ РАЗДЕЛ КАТАЛОГА ДЛЯ ПРОСМОТРА
+                </h2>
+                <div class="catalog__grid">
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Для детей <br> от 1 до 6 лет
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Для детей <br> от 3 до 12 лет
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      детские<br>площадки<br> для дачи
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Самые популярные<br>детские площадки
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Недорогие детские<br>
+                      площадки
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item">
+                    <div class="catalog__grid-info">
+                      Детские площадки «Премиум»
+                    </div>
+                  </div>
+                  <div class="catalog__grid-item catalog__grid-item--bottom">
+                    <div class="catalog__grid-sale">
+                      <div class="catalog__sale-title">Распродажа</div>
+                      <div class="catalog__sale-descr">Детских площадок</div>
+                    </div>
+                    <div class="catalog__sale-bg">
+                      <span class="catalog__sale-text">распро<br>дажа</span>
+                    </div>
+                    <img src="img/catalog-bg-7.png" alt="" class="catalog__sale-img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="advantages">
+            <div class="small-container">
+              <div class="advantages__inner">
+                <div class="advantages__items">
+                  <div class="advantages__item">
+                    <div class="advantages__item-box">
+                      <img src="img/icons/advantages-1.png" alt="" class="advantages__item-img">
+                    </div>
+                    <div class="advantages__item-title">
+                      Безопасные
+                    </div>
+                    <div class="advantages__item-descr">
+                      Все площадки соответствуют ГОСТ
+                    </div>
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__item-box">
+                      <img src="img/icons/advantages-2.png" alt="" class="advantages__item-img">
+                    </div>
+                    <div class="advantages__item-title">
+                      Экономия средстВ
+                    </div>
+                    <div class="advantages__item-descr">
+                      Низкие цены с завода
+                    </div>
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__item-box">
+                      <img src="img/icons/advantages-3.png" alt="" class="advantages__item-img">
+                    </div>
+                    <div class="advantages__item-title">
+                      Гарантия 3 года
+                    </div>
+                    <div class="advantages__item-descr">
+                      Срок службы площадок от 5 лет
+                    </div>
+                  </div>
+                  <div class="advantages__item">
+                    <div class="advantages__item-box">
+                      <img src="img/icons/advantages-4.png" alt="" class="advantages__item-img">
+                    </div>
+                    <div class="advantages__item-title">
+                      Огромный выбор
+                    </div>
+                    <div class="advantages__item-descr">
+                      В наличии более 250 видов площадок
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="line__inner"></div>
+          </div>
+
+          <section class="main-block__sale sale">
+            <div class="container">
+              <div class="sale__inner">
+                <h2 class="sale__title">летняя Распродажа</h2>
+                <div class="sale__card-block">
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new _active">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount _active">Скидка <span class="diccount__num"></span> 35%
+                    </div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new _active">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount _active">Скидка <span class="diccount__num"></span> 35%
+                    </div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit _active">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit _active">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                  <article class="sale__product-card product-card">
+                    <div class="product-card__label new">Новинка!</div>
+                    <div class="product-card__label diccount">Скидка <span class="diccount__num"></span> 35%</div>
+                    <div class="product-card__label hit">Хит продаж</div>
+                    <div class="product-card__img-block">
+                      <img src="img/product/product-card-1.png" alt="" class="product-card__img">
+                    </div>
+                    <h4 class="product-card__title">
+                      Детская площадка Playgarden Original Castle Turbo
+                    </h4>
+                    <div class="product-card__dimensions">
+                      <span class="product-card__dimensions-descr">Д х Ш х В:</span>
+                      <span class="product-card__dimensions-num">7,10 x 6,70 x 3,5 м</span>
+                    </div>
+                    <div class="product-card__price">
+                      <div class="product-card__last-price">46 000 р.</div>
+                      <div class="product-card__actual-price">41 000 р</div>
+                    </div>
+                    <div class="product-card__buttons">
+                      <a class="product-card__link-buy">Купить</a>
+                      <a class="product-card__link-detail">Подробнее</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="main-block__presentation presentation">
+            <div class="container">
+              <div class="presentation__inner">
+                <div class="presentation__img-block">
+                  <img src="img/presentation-img.png" alt="" class="presentation__img">
+                </div>
+                <div class="presentation__text">
+                  <h2 class="presentation__title">
+                    Дом каминов, <br> оптово-розничный магазин электрокаминов!
+                  </h2>
+                  <p class="presentation__info">
+                    Уважаемый Покупатель! Добро пожаловать в один из крупнейших оптово-розничных магазинов
+                    электрокаминов
+                    в России!
+                  </p>
+                  <p class="presentation__info">
+                    Работая более 2х лет, мы помогли выбрать более 10 000 каминов нашим довольным покупателям, тепло и
+                    уют
+                    из нашего магазина! Являясь представителем 10ти крупнейших заводов изготовителей, мы всегда можем
+                    подобрать камин на самый изысканный вкус, по самой привлекательной цене и с расширенной гарантией!
+                  </p>
+                  <p class="presentation__conclusion">
+                    Надеемся, что и Вы получите удовольствие от ассортимента, представленного в нашем магазине, и
+                    сделаете
+                    достойный выбор
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="reviews">
+            <img src="img/reviews-bg.png" alt="" class="reviews__img">
+            <div class="reviews-container">
+              <div class="reviews__inner">
+                <div class="reviews__line">
+                  <div class="mini-line"></div>
+                </div>
+                <h2 class="reviews__title">
+                  Отзывы
+                </h2>
+                <div class="reviews__block">
+                  <article class="reviews__block-review review">
+                    <p class="review__text">
+                      “Выражаю благодарность магазину Дом каминов, особую благодарность Павлу Давыдовскому”
+                    </p>
+                    <span class="review__author">
+                      Владимир
+                    </span>
+                  </article>
+                  <article class="reviews__block-review review">
+                    <p class="review__text">
+                      Огромное спасибо руководству Компании "Дом каминов" и руководству интернет-магазина за оказанную
+                      благотворительную помощь!
+                    </p>
+                    <span class="review__author">
+                      БДПФ "Анастасия"
+                    </span>
+                  </article>
+                </div>
+                <a href="#" class="reviews__link-all">Смотреть все отзывы</a>
+              </div>
+            </div>
+          </section>
+          <div class="map-block">
+            <div class="map-block__container">
+              <div class="map-block__inner">
+                <div class="map-block__info">
+                  <img src="img/logo.png" alt="" class="map-block__info-logo">
+                  <h6 class="map-block__info-title">
+                    Адрес
+                  </h6>
+                  <p class="map-block__info-text">
+                    125371 г. Москва, Походный проезд 4с1 офис 213. БЦ «Тушино»
+                  </p>
+                  <h6 class="map-block__info-title">
+                    Телефон
+                  </h6>
+                  <span class="map-block__info-phone">
+                    8 (800) 500-54-27
+                  </span>
+                  <h6 class="map-block__info-title">
+                    E-mail
+                  </h6>
+                  <p class="map-block__info-text">
+                    info@dom-kaminov.com
+                  </p>
+                  <ul class="map-block__info-list">
+                    <li class="map-block__info-item">
+                      ООО "Дом Каминов"
+                    </li>
+                    <li class="map-block__info-item">
+                      ОГРН 1167746530819
+                    </li>
+                    <li class="map-block__info-item">
+                      ИНН 7724367616
+                    </li>
+                  </ul>
+                </div>
+                <div class="map-block__map">
+                  <div class="map" id="map"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer__inner">
+      <div class="footer__column-logo">
+        <img src="img/footer-logo.png" alt="" class="footer__logo">
+        <p class="footer__text">
+          © 2015-2017 г. ООО «Дом Каминов» - продажа электрокаминов.
+          Уют в Вашем доме.
+        </p>
+      </div>
+      <div class="footer__column-address">
+        <h5 class="footer__title">
+          Контакты
+        </h5>
+        <span class="footer__phone">
+          8 (800) 350-05-73
+        </span>
+        <p class="footer__text">
+          Бесплатный звонок по России
+        </p>
+        <span class="footer__address">
+          Адрес
+        </span>
+        <p class="footer__address-info">
+          125371 г. Москва, <br> Походный проезд 4с1 <br> офис 213. БЦ «Тушино»
+        </p>
+      </div>
+      <div class="footer__column-catalog">
+        <h5 class="footer__title">
+          Каталог
+        </h5>
+        <ul class="footer__catalog-list">
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Главная
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Розничный магазин
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Дилерам
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              О компании
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Доставка
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Гарантия
+            </a></li>
+          <li class="footer__catalog-item"><a href="#" class="footer__catalog-link">
+              Оплата
+            </a></li>
+        </ul>
+      </div>
+      <div class="footer__column-agent">
+        <h5 class="footer__agent-title">
+          Официальный представитель компаний в России:
+        </h5>
+        <div class="footer__agent-row">
+          <div class="footer__agent-block"><img src="img/footer-agent-1.jpg" alt="" class="footer__agent-img"></div>
+          <div class="footer__agent-block"><img src="img/footer-agent-2.jpg" alt="" class="footer__agent-img"></div>
+          <div class="footer__agent-block"><img src="img/footer-agent-3.jpg" alt="" class="footer__agent-img"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <div class="popup pop-up-window" data-modal="call">
+    <div class="popup__inner">
+      <div class="popup__block popup-call">
+        <div class="popup-call__block">
+          <h3 class="popup-call__title">
+            Оставьте свой номер
+          </h3>
+          <form class="popup-call__form call-form">
+            <div class="call-form__btns">
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/whatsapp.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/viber.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+              <label class="call-form__btn">
+                <input type="checkbox" class="call-form__check">
+                <div class="call-form__check-block">
+                  <img src="img/icons/telegram.svg" alt="" class="call-form__check-img">
+                </div>
+              </label>
+            </div>
+            <span class="call-form__text">
+              Для получения персонального подбора детской площадки и весенней распродажи на Viber WhatsApp, Telegram. Выберите один или несколько мессенджеров, кликнув по соответствующим иконкам
+            </span>
+            <input type="text" class="call-form__input phone-mask" placeholder="+7 (">
+            <button class="popup-call__btn btn--orange">Получить каталог</button>
+          </form>
+          <img src="img/popup-call-img.jpg" alt="" class="popup__call-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    defer></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
